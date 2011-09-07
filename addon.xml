@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.xbmcmessenger"
+  version="1.1.0"
+  name="XBMC Messenger"
+  provider-name="eo, UCD">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+ <extension point="xbmc.python.script"
+             library="default.py" />
+ <provides>executable</provides>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">XBMC Messenger </summary>
+    <description lang="en">Uses Telepathy framework to provide Im function ablity in XBMC.</description>
+  </extension>
+</addon>

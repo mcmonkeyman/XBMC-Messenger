@@ -1,0 +1,8 @@
+manager: gabble
+protocol: jabber
+account: slibhin@gmail.com
+password: tiger138
+server: talk.google.com
+port: 5223
+old-ssl: true
+ignore-ssl-errors: true
